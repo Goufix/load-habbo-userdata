@@ -24,7 +24,7 @@ export default function HabboInfo(props) {
       <pre style={{ marginTop: 15 }}>
         {userdata === null
           ? 'Carregando...'
-          : }
+          : <Result data={userdata}> }
       </pre>
     </div>
   );
