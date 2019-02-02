@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Result from './Resultt';
+import Result from './Result';
 import Styles from './styles/styles.css';
 
 const API_ENDPOINT = 'https://www.habbo.com.br/api/public/users';
