@@ -2,7 +2,10 @@
   "name": "load-habbo-userdata-w-hooks",
   "version": "1.0.0",
   "description": "",
-  "keywords": ["react-hooks", "react"],
+  "keywords": [
+    "react-hooks",
+    "react"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "react": "16.8.0-alpha.1",
@@ -16,5 +19,13 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": "https://github.com/Goufix/load-habbo-userdata",
+  "author": "Goufix <alifer.17.11@gmail.com>",
+  "license": "MIT"
 }

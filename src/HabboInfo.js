@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-const API_ENDPOINT = "https://www.habbo.com.br/api/public/users";
+const API_ENDPOINT = 'https://www.habbo.com.br/api/public/users';
 
 export default function HabboInfo(props) {
   const [userdata, setUserdata] = useState(null);
@@ -18,12 +18,10 @@ export default function HabboInfo(props) {
   );
 
   return (
-    <div style={{ padding: "15px 0" }}>
+    <div style={{ padding: '15px 0' }}>
       Dados para o usuário <code>{props.username}</code>:
       <pre style={{ marginTop: 15 }}>
-        {userdata === null
-          ? "Carregando..."
-          : JSON.stringify(userdata, null, 2)}
+        {userdata === null ? 'Carregando...' : userdata.uniqueId}
       </pre>
     </div>
   );
