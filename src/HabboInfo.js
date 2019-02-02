@@ -21,7 +21,9 @@ export default function HabboInfo(props) {
     <div style={{ padding: '15px 0' }}>
       Dados para o usuário <code>{props.username}</code>:
       <pre style={{ marginTop: 15 }}>
-        {userdata === null ? 'Carregando...' : userdata.uniqueId}
+        {userdata === null
+          ? 'Carregando...'
+          : }
       </pre>
     </div>
   );
